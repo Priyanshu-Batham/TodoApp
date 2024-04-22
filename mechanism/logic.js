@@ -40,7 +40,7 @@ function addTaskHtml(id, task) {
     let newTaskElm = document.createElement("li")
     newTaskElm.innerHTML = `<input class="px-3 py-2 border-2 border-black" type="text" value="${task}" readonly>
     <button class="mx-2 bg-green-400 px-3 py-2 border-2 border-black font-medium hover:bg-green-700 hover:border-green-400 hover:text-white">EDIT</button>
-    <button class="bg-red-400 px-3 py-2 border-2 border-black font-medium hover:bg-red-700 hover:border-red-400 hover:text-white">DELETE</button>`
+    <button class="bg-red-400 px-3 py-2 border-2 lg:inline lg:mt-0 inline-block mt-1 border-black font-medium hover:bg-red-700 hover:border-red-400 hover:text-white">DELETE</button>`
     newTaskElm.classList.add("text-center")
     newTaskElm.classList.add("mb-5")
     newTaskElm.id = id
