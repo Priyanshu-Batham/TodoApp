@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <!-- css -->
+    <link href="./output.css" rel="stylesheet">
+
+    <!-- javascript -->
+    <script src="./mechanism/logic.js" defer></script>
+</head>
+
+<body class="bg-gray-800">
+    <h1 class="text-center text-5xl mt-20 text-white font-bold">TODO</h1>
+    <div class="my-10 text-center">
+        <input id="input" class="px-3 py-2 border-2 border-black" type="text" placeholder="Enter Your Task...">
+        <button id="add" class="mx-2 bg-green-400 px-3 py-2 border-2 border-green-700 font-medium hover:bg-green-700 hover:border-green-400 hover:text-white">ADD</button>
+        <button id="clearAll" class="bg-red-400 px-3 py-2 border-2 border-red-800 font-medium hover:bg-red-700 hover:border-red-400 hover:text-white">Clear All</button>
+    </div>
+
+    <ul id="taskListHtml" class="border-2 border-white mx-8 pt-5 pb-1 lg:max-w-[500px] lg:mx-auto"></ul>
+</body>
+
+</html>
